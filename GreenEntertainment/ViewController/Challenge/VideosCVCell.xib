@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="VideosCVCell" id="gTV-IL-0wX" customClass="VideosCVCell" customModule="Squabble" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="370" height="373"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="370" height="373"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Auv-zL-0bN">
+                        <rect key="frame" x="0.0" y="0.0" width="370" height="373"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LKI-Df-ZVm">
+                                <rect key="frame" x="131" y="129" width="108" height="115"/>
+                                <color key="backgroundColor" red="0.95294117649999999" green="0.41176470590000003" blue="0.41176470590000003" alpha="0.76490066229999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="Ot6-54-ea8"/>
+                                    <constraint firstAttribute="height" constant="115" id="Yip-Lx-LCE"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                        <constraints>
+                            <constraint firstItem="LKI-Df-ZVm" firstAttribute="centerX" secondItem="Auv-zL-0bN" secondAttribute="centerX" id="1yn-Xi-plF"/>
+                            <constraint firstItem="LKI-Df-ZVm" firstAttribute="centerY" secondItem="Auv-zL-0bN" secondAttribute="centerY" id="jHb-3u-Tvf"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Auv-zL-0bN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="2cH-cK-Zgl"/>
+                <constraint firstAttribute="bottom" secondItem="Auv-zL-0bN" secondAttribute="bottom" id="2dE-YM-nzt"/>
+                <constraint firstItem="Auv-zL-0bN" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Vgp-lp-6sh"/>
+                <constraint firstAttribute="trailing" secondItem="Auv-zL-0bN" secondAttribute="trailing" id="gdE-Tf-ZoP"/>
+            </constraints>
+            <size key="customSize" width="370" height="373"/>
+            <connections>
+                <outlet property="imagesView" destination="LKI-Df-ZVm" id="1U8-Hy-h8W"/>
+                <outlet property="videoView" destination="Auv-zL-0bN" id="Wgz-aa-ed0"/>
+            </connections>
+            <point key="canvasLocation" x="231.8840579710145" y="238.72767857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

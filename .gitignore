@@ -1,0 +1,385 @@
+### CocoaPods ###
+## CocoaPods GitIgnore Template
+
+# CocoaPods - Only use to conserve bandwidth / Save time on Pushing
+#           - Also handy if you have a large number of dependant pods
+#           - AS PER https://guides.cocoapods.org/using/using-cocoapods.html NEVER IGNORE THE LOCK FILE
+Podfile.lock
+Pods/
+
+### Swift ###
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+xcuserdata/
+
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+*.xcscmblueprint
+*.xccheckout
+
+## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+# *.xcodeproj
+# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
+# hence it is not needed unless you have added a package configuration file to your project
+# .swiftpm
+
+.build/
+
+# CocoaPods
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+Pods/
+# Add this line if you want to avoid checking in source code from the Xcode workspace
+# *.xcworkspace
+
+# Carthage
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build/
+
+# Add this lines if you are using Accio dependency management (Deprecated since Xcode 12)
+# Dependencies/
+# .accio/
+
+# fastlane
+# It is recommended to not store the screenshots in the git repo.
+# Instead, use fastlane to re-generate the screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
+
+### Xcode ###
+# Xcode
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+
+
+
+## Gcc Patch
+/*.gcno
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+GreenEntertainment/AgoraFramework/AgoraRtcCryptoLoader.framework/AgoraRtcCryptoLoader
+GreenEntertainment/AgoraFramework/AgoraRtcCryptoLoader.framework/Info.plist
+GreenEntertainment/AgoraFramework/AgoraRtcCryptoLoader.framework/Headers/AgoraRtcCryptoCppLoader.h
+GreenEntertainment/AgoraFramework/AgoraRtcCryptoLoader.framework/Headers/AgoraRtcCryptoLoader.h
+GreenEntertainment/AgoraFramework/AgoraRtcCryptoLoader.framework/Modules/module.modulemap
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraRtcKit
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/Info.plist
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/srmetal.metallib
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_120x120.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_120x120.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_120x120.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_120x120.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_120x120.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_120x120.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_120x160.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_120x160.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_120x160.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_120x160.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_120x160.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_120x160.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_144x176.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_144x176.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_144x176.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_144x176.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_144x176.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_144x176.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_160x120.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_160x120.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_160x120.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_160x120.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_160x120.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_160x120.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_176x144.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_176x144.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_176x144.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_176x144.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_176x144.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_176x144.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_176x288.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_176x288.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_176x288.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_176x288.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_176x288.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_176x288.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_180x180.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_180x180.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_180x180.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_180x180.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_180x180.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_180x180.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_180x240.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_180x240.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_180x240.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_180x240.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_180x240.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_180x240.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_180x320.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_180x320.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_180x320.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_180x320.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_180x320.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_180x320.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_192x192.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_192x192.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_192x192.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_192x192.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_192x192.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_192x192.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_224x224.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_224x224.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_224x224.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_224x224.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_224x224.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_224x224.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x180.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x180.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x180.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x180.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x180.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x180.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x240.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x240.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x240.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x240.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x240.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x240.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x320.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x320.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x320.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x320.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x320.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x320.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x360.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x360.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x360.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x360.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x360.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x360.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x368.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x368.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x368.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x368.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x368.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x368.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x424.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x424.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x424.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x424.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x424.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_240x424.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_288x176.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_288x176.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_288x176.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_288x176.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_288x176.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_288x176.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_288x352.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_288x352.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_288x352.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_288x352.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_288x352.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_288x352.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_320x180.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_320x180.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_320x180.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_320x180.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_320x180.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_320x180.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_320x240.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_320x240.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_320x240.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_320x240.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_320x240.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_320x240.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_320x320.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_320x320.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_320x320.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_320x320.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_320x320.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_320x320.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_352x288.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_352x288.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_352x288.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_352x288.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_352x288.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_352x288.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x240.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x240.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x240.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x240.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x240.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x240.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x360.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x360.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x360.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x360.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x360.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x360.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x480.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x480.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x480.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x480.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x480.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x480.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x640.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x640.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x640.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x640.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x640.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_360x640.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x240.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x240.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x240.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x240.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x240.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x240.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x368.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x368.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x368.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x368.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x368.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x368.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x480.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x480.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x480.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x480.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x480.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x480.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x640.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x640.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x640.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x640.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x640.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_368x640.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_400x600.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_400x600.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_400x600.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_400x600.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_400x600.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_400x600.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_424x240.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_424x240.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_424x240.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_424x240.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_424x240.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_424x240.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x360.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x360.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x360.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x360.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x360.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x360.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x368.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x368.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x368.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x368.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x368.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x368.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x480.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x480.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x480.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x480.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x480.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x480.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x640.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x640.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x640.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x640.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x640.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_480x640.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_512x512.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_512x512.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_512x512.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_512x512.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_512x512.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_512x512.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_600x400.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_600x400.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_600x400.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_600x400.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_600x400.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_600x400.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_640x360.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_640x360.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_640x360.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_640x360.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_640x360.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_640x360.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_640x368.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_640x368.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_640x368.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_640x368.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_640x368.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_640x368.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_640x480.mlmodelc/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_640x480.mlmodelc/model.espresso.net
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_640x480.mlmodelc/model.espresso.shape
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_640x480.mlmodelc/model.espresso.weights
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_640x480.mlmodelc/model/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/AgoraResources/model.bundle/tinyCNN9_Yuv_norm_640x480.mlmodelc/neural_network_optionals/coremldata.bin
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/Headers/AgoraBase.h
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/Headers/AgoraConstants.h
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/Headers/AgoraEnumerates.h
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/Headers/AgoraLiveKit.h
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/Headers/AgoraLivePublisher.h
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/Headers/AgoraLiveSubscriber.h
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/Headers/AgoraMediaIO.h
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/Headers/AgoraMediaMetadata.h
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/Headers/AgoraObjects.h
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/Headers/AgoraRtcChannel.h
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/Headers/AgoraRtcEngineKit.h
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/Headers/IAgoraMediaEngine.h
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/Headers/IAgoraRtcChannel.h
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/Headers/IAgoraRtcEngine.h
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/Headers/IAgoraService.h
+GreenEntertainment/AgoraFramework/AgoraRtcKit.framework/Modules/module.modulemap

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Rubik-Regular.ttf">
+            <string>Rubik-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ReceiverChatCell" rowHeight="85" id="KGk-i7-Jjw" customClass="ReceiverChatCell" customModule="GreenEntertainment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ps-h8-jCq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="27 Jan,13:26 PM " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWO-Ra-umB">
+                                <rect key="frame" x="20" y="65" width="86.5" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="BOe-SO-Dia"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="11"/>
+                                <color key="textColor" name="GREY"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6lh-Bm-jX8" customClass="ChatView" customModule="GreenEntertainment" customModuleProvider="target">
+                                <rect key="frame" x="10" y="15" width="119" height="45"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="How are you?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rdC-ys-xJk">
+                                        <rect key="frame" x="22" y="9" width="87" height="26"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="14"/>
+                                        <color key="textColor" name="BLACK"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="rdC-ys-xJk" firstAttribute="top" secondItem="6lh-Bm-jX8" secondAttribute="top" constant="9" id="ShD-9W-awa"/>
+                                    <constraint firstAttribute="bottom" secondItem="rdC-ys-xJk" secondAttribute="bottom" constant="10" id="Xed-Re-acb"/>
+                                    <constraint firstAttribute="trailing" secondItem="rdC-ys-xJk" secondAttribute="trailing" constant="10" id="kdq-2b-e29"/>
+                                    <constraint firstItem="rdC-ys-xJk" firstAttribute="leading" secondItem="6lh-Bm-jX8" secondAttribute="leading" constant="22" id="qN3-Hq-nTY"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" name="BLACK"/>
+                        <constraints>
+                            <constraint firstItem="kWO-Ra-umB" firstAttribute="top" secondItem="6lh-Bm-jX8" secondAttribute="bottom" constant="5" id="2UG-Mu-iU1"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6lh-Bm-jX8" secondAttribute="trailing" constant="80" id="9Q6-He-yGn"/>
+                            <constraint firstAttribute="bottom" secondItem="6lh-Bm-jX8" secondAttribute="bottom" constant="25" id="HdS-Pe-i2y"/>
+                            <constraint firstItem="kWO-Ra-umB" firstAttribute="top" secondItem="6lh-Bm-jX8" secondAttribute="bottom" constant="5" id="NGm-w6-SB9"/>
+                            <constraint firstAttribute="bottom" secondItem="kWO-Ra-umB" secondAttribute="bottom" constant="6" id="Oft-hm-E5I"/>
+                            <constraint firstItem="6lh-Bm-jX8" firstAttribute="top" secondItem="7ps-h8-jCq" secondAttribute="top" constant="15" id="Rhg-2r-0u7"/>
+                            <constraint firstItem="6lh-Bm-jX8" firstAttribute="leading" secondItem="7ps-h8-jCq" secondAttribute="leading" constant="10" id="hxy-uK-cSi"/>
+                            <constraint firstItem="kWO-Ra-umB" firstAttribute="leading" secondItem="7ps-h8-jCq" secondAttribute="leading" constant="20" id="nGx-4R-rmU"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="HdS-Pe-i2y"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7ps-h8-jCq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="McY-JX-9hI"/>
+                    <constraint firstAttribute="trailing" secondItem="7ps-h8-jCq" secondAttribute="trailing" id="Rb7-qt-peC"/>
+                    <constraint firstItem="7ps-h8-jCq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="p2j-RN-Icd"/>
+                    <constraint firstAttribute="bottom" secondItem="7ps-h8-jCq" secondAttribute="bottom" id="x5b-am-4nE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="messageLabel" destination="rdC-ys-xJk" id="0iS-rF-88x"/>
+                <outlet property="shapeView" destination="6lh-Bm-jX8" id="BNJ-xq-c8h"/>
+                <outlet property="timeLabel" destination="kWO-Ra-umB" id="wyH-tk-KAI"/>
+            </connections>
+            <point key="canvasLocation" x="-71.014492753623188" y="-205.24553571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="BLACK">
+            <color red="0.035000000149011612" green="0.035000000149011612" blue="0.035000000149011612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GREY">
+            <color red="0.63499999046325684" green="0.63499999046325684" blue="0.63499999046325684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
